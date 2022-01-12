@@ -42,7 +42,7 @@ public class VerifyTest {
     	String logintitle = driver.getTitle();
     	System.out.println(logintitle);
     	Assert.assertEquals("Demo Web Shop", logintitle);
-        System.out.println("checked title of page");
+        System.out.println("asserted title of page");
         driver.quit();
     }
 	
